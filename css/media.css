@@ -1,0 +1,28 @@
+@media (max-width: 1109px) {
+  .main-cotnent {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 894px) {
+  .footer__content {
+    gap: 30px;
+  }
+}
+@media (max-width: 866px) {
+  .nav-content {
+    display: none;
+  }
+  .burger__menu {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 555px) {
+  .main__conent__card {
+    max-width: 320px;
+  }
+  .main-cotnent > .main__conent__card img{
+    width: 100%;
+  }
+}
